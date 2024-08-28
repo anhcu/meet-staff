@@ -1,3 +1,9 @@
+
+#NSH {
+  float: topleft;
+  padding: 10px;
+}
+
 .navbar {
   /* float: left; */
   /* display: block; */
@@ -8,9 +14,41 @@
   font-size: 20px;
 }
 
+.ms {
+  width: 80%;
+  height: auto;
+}
+
+.card-container{
+  border: 1px solid black;
+}
+
+.card{
+  border: 1px solid black;
+  width: 15%;
+  text-align: center;
+}
+
+.card-content{
+  /* width: 15%; */
+  background-color: aqua;
+}
+
+.card-list{
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+/* 
 .director .mw{
 background-color: aqua;
-}
+} */
 
 header {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,9 +64,7 @@ hr {
     border-top: 2px dotted black;
 }
 
-#NSH {
-    float: right;
-}
+
 
 /* table, td,tr {
   border: 1px solid;
